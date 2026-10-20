@@ -1,5 +1,6 @@
-# Keep the Composer dist archive small: tests need the monorepo fixtures (docs/fixtures).
+﻿# Packagist dist: ship source only. Tests + fixtures stay in git for CI.
 /tests            export-ignore
+/docs             export-ignore
 /phpunit.xml      export-ignore
 /.gitattributes   export-ignore
 /.gitignore       export-ignore
