@@ -1,4 +1,4 @@
-﻿# Packagist dist: ship source only. Tests + fixtures stay in git for CI.
+# Packagist dist: ship source only. Tests + fixtures stay in git for CI.
 /tests            export-ignore
 /docs             export-ignore
 /phpunit.xml      export-ignore
